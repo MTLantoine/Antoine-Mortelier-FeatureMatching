@@ -26,7 +26,7 @@ jobs:
       - uses: actions/setup-dotnet@v1
         with:
           dotnet-version: "6.0.101"
-      - run: dotnet test
+      - run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=./coverage/opencover.xml
       - run: dotnet publish ./Antoine.Mortelier.Ocr.Console/Antoine.Mortelier.Ocr.Console.csproj --self-contained true --output ./win-x64/ocr -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true /p:PublishReadyToRun=true
       - name: Upload WebApp1 Build Artifact
         uses: actions/upload-artifact@v2
