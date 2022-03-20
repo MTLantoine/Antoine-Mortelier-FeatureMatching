@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antoine.Mortelier.FeatureMatching", "Antoine.Mortelier.FeatureMatching\Antoine.Mortelier.FeatureMatching.csproj", "{A9CAD3F6-7904-4EBE-AAC6-894136F89031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antoine.Mortelier.FeatureMatching.Tests", "Antoine.Mortelier.FeatureMatching.Tests\Antoine.Mortelier.FeatureMatching.Tests.csproj", "{47C21C30-CE03-4702-BE15-50434A44ECE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antoine.Mortelier.FeatureMatching.Console", "Antoine.Mortelier.FeatureMatching.Console\Antoine.Mortelier.FeatureMatching.Console.csproj", "{74F74459-D512-4AB8-8567-0D1CE9B5114A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antoine.Mortelier.FeatureMatching.WebApi", "Antoine.Mortelier.FeatureMatching.WebApi\Antoine.Mortelier.FeatureMatching.WebApi.csproj", "{482DA77B-0025-4014-82D0-69D32522B18A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9CAD3F6-7904-4EBE-AAC6-894136F89031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CAD3F6-7904-4EBE-AAC6-894136F89031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CAD3F6-7904-4EBE-AAC6-894136F89031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CAD3F6-7904-4EBE-AAC6-894136F89031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C21C30-CE03-4702-BE15-50434A44ECE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C21C30-CE03-4702-BE15-50434A44ECE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C21C30-CE03-4702-BE15-50434A44ECE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C21C30-CE03-4702-BE15-50434A44ECE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F74459-D512-4AB8-8567-0D1CE9B5114A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F74459-D512-4AB8-8567-0D1CE9B5114A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F74459-D512-4AB8-8567-0D1CE9B5114A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F74459-D512-4AB8-8567-0D1CE9B5114A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{482DA77B-0025-4014-82D0-69D32522B18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482DA77B-0025-4014-82D0-69D32522B18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482DA77B-0025-4014-82D0-69D32522B18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482DA77B-0025-4014-82D0-69D32522B18A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
